@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Jorge's VPN Client</h1>
+    <div>
+      <form id="credentials">
+        <div>
+          <label>Username</label>
+          <input type="text" id="username"/>
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" id="password">
+        </div>
+        <button type="submit" id="connect">Connect</button>
+      </form>
+      <button id="disconnect" style="display:none;">Disconnect</button>
+      <div id="details"></div>
+    </div>
+  </body>
+
+  <script>
+    require('./js/index.js')
+  </script>
+</html>
